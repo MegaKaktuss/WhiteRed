@@ -1,0 +1,39 @@
+.StubSocial{
+	padding-top: 35px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 179px;
+}
+.StubSocial-item{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	-webkit-filter: grayscale(1) invert() brightness(1);
+	        filter: grayscale(1) invert() brightness(1);
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+.StubSocial-item:hover{
+	-webkit-filter: opacity(0.4);
+	        filter: opacity(0.4);
+	-webkit-transform: rotate(360deg);
+	        transform: rotate(360deg);
+}
+
+.StubSocial-item--facebook{
+	width: 16px;
+	background: url(../images/facebook.svg) center center no-repeat;
+}
+.StubSocial-item--vk{
+	background: url(../images/vk.svg) center center no-repeat;
+}
+.StubSocial-item--youtube{
+	background: url(../images/youtube.svg) center center no-repeat;
+}
+.StubSocial-item--instagram{
+	background: url(../images/instagram.svg) center center no-repeat;
+}

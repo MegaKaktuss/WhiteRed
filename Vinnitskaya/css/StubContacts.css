@@ -1,0 +1,27 @@
+.StubContacts{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+.Department-name{
+	font-family: "FuturaDemiC", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.StubContacts a:not(:focus):not(:hover){
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	color: #fff;
+}

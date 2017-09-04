@@ -1,0 +1,4 @@
+.StubLogo-img{
+	-webkit-filter: grayscale(1) invert() brightness(1);
+	        filter: grayscale(1) invert() brightness(1);
+}
